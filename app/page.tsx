@@ -17,7 +17,7 @@ export default function Home() {
         setProjectId(data.projectId);
         setDeployUrl(data.url);
       } else {
-        console.error('Deployment failed');
+        console.error('Deployment failed!');
       }
     } catch (error) {
       console.error('Error:', error);
